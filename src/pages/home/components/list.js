@@ -2,8 +2,6 @@ import Item from './item';
 
 
 
-
-
 const List = ({data,deleteData,submitData}) =>{
 
 

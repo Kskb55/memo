@@ -4,7 +4,7 @@
 
 import {API_GET_DATA} from '../../global/constance.js' ;
 
-
+import MyApp from './components/button';
 
 import List from './components/list.js';
 import Edit from './components/edit.js';
@@ -51,7 +51,7 @@ const Home = () =>{
     return <div className = "app">
         <Edit setData={setData} submitData={submitData} />
         <List data={data} deleteData={setData} submitData={submitData} />
-        
+        <MyApp/>
     </div>
 };
 
